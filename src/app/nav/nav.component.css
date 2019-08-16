@@ -4,9 +4,9 @@
 
 #navMenuChunk
 {     
-display: inline;
+float:right;
 overflow: hidden;
-position: absolute;
+position: relative;
 background: white;
 }
 #navMenuChunk:after {
