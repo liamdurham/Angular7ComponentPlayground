@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*** Nav **************************************************************/
+
+#ledgerBarHolder
+{ 
+position: relative;
+margin: 0 auto;  
+margin-right: 5%; 
+margin-left: 5%;    
+line-height: 100%;
+text-align: center; 
+display: block;
+float: right;
+padding-top: 10px;
+width: 65%; 
+height: 600px;    
+}
+
+#ledgerBarBanner
+{
+display: block;    
+border: solid;
+padding: 10px;
+margin: auto;
+vertical-align:middle;
+align-content:center;    
+text-align: center;
+font-size: 30px;
+width: 60%;
+line-height: 48px;    
+height: 48px;     
+border-width: 2px;
+font-family: Arial;
+margin-bottom: 20px;    
+}
+#ledgerHeadersWrap
+{
+ display: -webkit-flex;     
+ border: solid;
+ width: 100%; 
+ justify-content: space-around;    
+}
+.ledgerBarHeaders
+{
+display: inline-block;
+margin: auto;
+padding-bottom: 5px;    
+margin-top: 10px;    
+width: auto;
+height: 24px;
+font-family: Arial;
+font-size: 18px;    
+}
+
+.ledgerBarHeaders a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ledgerBarHeaders a:hover
+{
+ padding-right: 5px;     
+}
+
+.ledgerBarHeaders a:hover::before{
+     content: "⇩";
+}
+
+table 
+{
+width: 100%;    
+overflow: auto; 
+margin: auto;
+border-style: none;
+border-collapse: collapse;
+max-height: 400px;    
+}
+#tableContainer{
+ overflow-y: scroll;
+ max-height: 350px; 
+ border-style: solid;
+ border-width: 1px;    
+}
+
+td
+{
+border-top: 2px solid black;
+padding: 5px;
+width: 128px;
+height: 64px;  
+font-family: Arial;
+font-size: 22px;    
+border-collapse: collapse;  
+text-align: center;    
+}
+
+/*** Scrollbar ************************************************/
+#tableContainer::-webkit-scrollbar {
+    background-color: #F5F5F5;
+    float: right;
+    height: 400px;
+    width: 5px;
+}
+#tableContainer::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px;
+}
