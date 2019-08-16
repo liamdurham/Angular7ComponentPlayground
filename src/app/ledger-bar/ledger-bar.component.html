@@ -1,6 +1,6 @@
- <div id="ledgerBarHolder">
+ <aside id="ledgerBarHolder">
         <div id="ledgerBarBanner">
-          Test Title   
+          Test Item Title   
         </div>
         <div id=ledgerHeadersWrap>
         <div class="ledgerBarHeaders">
@@ -22,97 +22,26 @@
         <col style="width:25%"> 
         <col style="width:25%"> 
         <col style="width:25%">     
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
+            <tr *ngFor="let test of tests">
+            <td>{{test.itemAction}}</td>
+            <td>{{test.itemEmail}}</td>
+            <td>{{test.itemName}}</td>
+            <td>{{test.itemDate}}</td>
             </tr>
             <tr>
             <td>
             Test Title</td>
             <td>Test email</td>
             <td>Test name</td>
-            <td>12/12/19</td>
+            <td>12/19</td>
             </tr>
             <tr>
             <td>
             Test Title</td>
             <td>Test email</td>
             <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
-            </tr>
-            <tr>
-            <td>
-            Test Title</td>
-            <td>Test email</td>
-            <td>Test name</td>
-            <td>12/12/19</td>
+            <td>10/19</td>
             </tr>
         </table>
         </div>         
-    </div>
+    </aside>

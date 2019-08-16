@@ -1,2 +1,13 @@
 /* Add application styles & imports to this file! */
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: rgb(63, 63, 63);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+nav {
+  overflow-x: hidden;
+}

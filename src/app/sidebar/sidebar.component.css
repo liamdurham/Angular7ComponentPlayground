@@ -2,25 +2,21 @@
 
 #sideBarHolder
 { 
-position: relative;
-margin: 0 auto;  
-margin-right: 5%; 
-margin-left: 5%;    
+position: relative;   
 line-height: 100%;
 text-align: center; 
-display: block;
 float: left;
 outline-style: solid; 
 outline-color: black; 
 padding-top: 10px;
-width: 300px;   
+width: 25%; 
 }
 
 #sideBarBanner
 {
 border-bottom: solid;
 padding: 15px;
-margin:auto;
+margin: auto;
 font-size: 30px;
 width: 80%;
 text-align: center;    
@@ -106,5 +102,14 @@ width: 60px;
     border-radius: 5px;
 }
 
-/*** Tooltips **********************/
+/*** Buttons **********************/
 
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  background-color: white;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border: none;
+}
